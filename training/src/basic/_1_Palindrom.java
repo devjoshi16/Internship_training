@@ -1,8 +1,8 @@
-package training;
+package basic;
 
 import java.util.Scanner;
 
-public class _1_palindrom {
+public class _1_Palindrom {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

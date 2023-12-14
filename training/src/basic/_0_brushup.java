@@ -17,6 +17,7 @@ public class _0_brushup {
 		System.out.println("double to int of 19.4:" + (int) dbl);
 		System.out.println("\n");
 
+		
 		System.out.println("Multiplicative");
 		System.out.println("10*2:" + (10 * 2));
 		System.out.println("10/2:" + (10 / 2));
