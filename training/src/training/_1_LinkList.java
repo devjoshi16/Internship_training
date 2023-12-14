@@ -1,5 +1,7 @@
 package training;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
@@ -53,7 +55,7 @@ public class _1_LinkList {
 		}
 		int input;
 		System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n " + "3 for remove element \n "
-				+ "4 To delete all element \n " + "0 to exit");
+				+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 		input = scanner.nextInt();
 
@@ -76,8 +78,9 @@ public class _1_LinkList {
 					ll.addFirst(value);
 					print(ll);
 
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element \n" + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 					break;
@@ -89,8 +92,9 @@ public class _1_LinkList {
 					ll.addLast(value);
 					print(ll);
 
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element \n" + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 					break;
@@ -104,8 +108,9 @@ public class _1_LinkList {
 					add_at(ll, value, index);
 					print(ll);
 
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element\n " + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 					break;
@@ -121,7 +126,7 @@ public class _1_LinkList {
 
 			case 2: {
 				System.out.println(
-						"Enter \n 1 to replace at first\n" + " 2 to replace at last \n " + "3 to replace at index \n");
+						"Enter \n 1 to replace at first\n" + " 2 to replace at last\n " + "3 to replace at index \n");
 
 				subinput = scanner.nextInt();
 				switch (subinput) {
@@ -133,8 +138,9 @@ public class _1_LinkList {
 					ll.set(0, value);
 					print(ll);
 
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element\n " + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 					break;
@@ -146,8 +152,9 @@ public class _1_LinkList {
 					ll.set(ll.size() - 1, value);
 					print(ll);
 
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element\n " + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 					break;
@@ -161,8 +168,9 @@ public class _1_LinkList {
 					ll.set(index, value);
 					print(ll);
 
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element\n " + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 
@@ -182,7 +190,7 @@ public class _1_LinkList {
 
 			case 3: {
 				System.out.println(
-						"Enter \n 1 to remove at first\n" + " 2 to remove at last \n " + "3 to remove at index \n");
+						"Enter \n 1 to remove at first\n" + " 2 to remove at last\n " + "3 to remove at index \n");
 
 				subinput = scanner.nextInt();
 				switch (subinput) {
@@ -192,8 +200,9 @@ public class _1_LinkList {
 					ll.removeFirst();
 					print(ll);
 
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element\n " + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 					break;
@@ -203,8 +212,9 @@ public class _1_LinkList {
 					ll.removeLast();
 					print(ll);
 
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element\n " + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 					break;
@@ -215,8 +225,9 @@ public class _1_LinkList {
 					int index = scanner.nextInt();
 					ll.remove(index);
 					print(ll);
-					System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-							+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+					System.out.println(
+							"Enter \n 1 to add element\n" + " 2 to replace element\n " + "3 for remove element \n "
+									+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 					input = scanner.nextInt();
 					break;
@@ -228,10 +239,24 @@ public class _1_LinkList {
 
 				break;
 			}
-			case 4:
-			{
+			case 4: {
 				ll.clear();
 				print(ll);
+				System.out.println(
+						"Enter \n 1 to add element\n" + " 2 to replace element \n" + "3 for remove element \n "
+								+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
+
+				input = scanner.nextInt();
+				break;
+			}
+			case 5: {
+				reverse_list(ll);
+				print(ll);
+				System.out.println(
+						"Enter \n 1 to add element\n" + " 2 to replace element \n" + "3 for remove element \n "
+								+ "4 To delete all element \n " + "5 to reverse list\n\n" + " 0 to exit");
+
+				input = scanner.nextInt();
 				break;
 			}
 			case 0:
@@ -239,8 +264,9 @@ public class _1_LinkList {
 
 			default: {
 				System.out.println("Invalid input \n");
-				System.out.println("Enter \n 1 to add element\n" + " 2 to replace element \n "
-						+ "3 for remove element \n " + "4 To delete all element \n " + "0 to exit");
+				System.out.println(
+						"Enter \n 1 to add element\n" + " 2 to replace element \n" + "3 for remove element \n "
+								+ "4 To delete all element \n " + "5 to reverse list\n" + " 0 to exit");
 
 				input = scanner.nextInt();
 				break;
@@ -255,6 +281,11 @@ public class _1_LinkList {
 			Integer integer = (Integer) iterator.next();
 			System.out.println(integer);
 		}
+	}
+
+	public static void reverse_list(LinkedList<Integer> ll) {
+
+		Collections.reverse(ll);
 	}
 
 	public static void add_at(LinkedList<Integer> ll, int value, int index) {
