@@ -47,7 +47,7 @@ public class _0_ArrayLsit {
 		}
 
 		System.out.println("Access through foreach method");
-		arrayList.forEach((element) -> System.out.println(element));
+		arrayList.forEach((element) -> System.out.println(element));	
 
 		System.out.println("Access through foreachRemaining method");
 		Iterator<Integer> iterator = arrayList.iterator();
