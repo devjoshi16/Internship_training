@@ -1,4 +1,4 @@
-package training;
+package com.aixtor.trainnig.java.basics;
 
 import java.util.Scanner;
 

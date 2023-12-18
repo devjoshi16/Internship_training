@@ -1,4 +1,4 @@
-package training;
+package com.aixtor.trainnig.java.collection.map;
 
 import java.util.HashMap;
 

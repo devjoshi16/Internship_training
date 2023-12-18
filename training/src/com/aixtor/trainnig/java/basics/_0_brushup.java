@@ -1,4 +1,4 @@
-package basic;
+package com.aixtor.trainnig.java.basics;
 
 public class _0_brushup {
 

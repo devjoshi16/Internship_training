@@ -1,4 +1,4 @@
-package training;
+package com.aixtor.trainnig.java.collection;
 
 import java.util.ArrayList;
 import java.util.Collections;

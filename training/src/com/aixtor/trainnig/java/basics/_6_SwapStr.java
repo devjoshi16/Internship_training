@@ -1,4 +1,4 @@
-package basic;
+package com.aixtor.trainnig.java.basics;
 
 public class _6_SwapStr {
 

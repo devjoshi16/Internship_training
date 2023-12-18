@@ -1,4 +1,4 @@
-package training;
+package com.aixtor.trainnig.java.collection.list;
 
 import java.util.ArrayDeque;
 import java.util.Iterator;
